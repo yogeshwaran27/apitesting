@@ -36,6 +36,6 @@ app.get('/api/filterdata/dependentData/dependentdata/Productgroup/:Productgroup'
     res.send(result)
 })
 
-app.listen(3000||process.env.PORT,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("server on!");
 })
